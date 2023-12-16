@@ -1,5 +1,31 @@
 {
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+	"name": "p-cat",
+	"version": "1.0.0",
+	"description": "PCAT Photo App",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/muhammedeminbekoz/Photo-App.git"
+	},
+	"keywords": [
+		"photo",
+		"app",
+		"camera"
+	],
+	"author": "Muhammed Emin Beköz",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/muhammedeminbekoz/Photo-App/issues"
+	},
+	"homepage": "https://github.com/muhammedeminbekoz/Photo-App#readme",
+	"dependencies": {
+		"express": "^4.18.2"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.2"
+	}
 }
